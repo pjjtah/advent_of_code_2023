@@ -71,7 +71,6 @@ print("Part 1:" + str(result))
 
 ratio_sum = 0
 for gear in gears:
-    print(gear.near)
     if len(gear.near) == 2:
         ratio_sum += int(gear.near[0]) * int(gear.near[1])
 print("Part 2:" + str(ratio_sum))
